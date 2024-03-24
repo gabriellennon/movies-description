@@ -1,0 +1,13 @@
+.content-movie-skeleton {
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    & > span:nth-child(1) {
+        width: 65%;
+    }
+
+    & > span:nth-child(2) {
+        width: 30%;
+    }
+}

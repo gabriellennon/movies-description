@@ -1,0 +1,64 @@
+.content-movie-description {
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+    .info-movie {
+        width: 70%;
+        padding-left: 3rem;
+
+        h2 {
+            font-size: 2.6rem;
+            color: #FFF;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        span {
+            font-size: 1rem;
+            color: #A9A9B2;
+        }
+
+        .secondary-information-movie {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            p {
+                font-size: 1rem;
+                color: #F0F0F0;
+                font-weight: 400;
+                &::after {
+                    content: '  |';
+                }
+            }
+
+            & > p:nth-child(2) {
+                color: #FFF;
+                font-weight: bold;
+            }
+
+            & > p:last-child {
+                &::after {
+                    content: '';
+                }
+            }
+        }
+
+        .description-movie {
+            font-size: 1rem;
+            color: #F0F0F0;
+        }
+    }
+
+    .card-movie {
+        width: 30%;
+        img {
+            border-radius: 10px;
+            border: 1px solid #323238;
+            width: 18rem;
+        }
+    }
+}

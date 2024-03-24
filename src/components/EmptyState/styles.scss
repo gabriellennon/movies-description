@@ -1,0 +1,27 @@
+.container-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 6rem;
+  
+    img {
+      width: 10rem;
+      opacity: 0.85;
+    }
+  
+    div {
+      text-align: center;
+
+      h3 {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+      }
+  
+      p {
+        font-size: 14px;
+        color: #A9A9B2;
+      }
+    }
+  }
