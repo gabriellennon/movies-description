@@ -29,7 +29,7 @@ git clone https://github.com/gabriellennon/movies-description.git
 # install dependencies
 npm install
 
-# Create your archive envorment.ts and add your apiKey follow the example of env.example archive
+# Create your archive .env and add your apiKey follow the example of env.example archive
 
 # Run the app
 npm run dev
