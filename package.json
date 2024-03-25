@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "test": "cypress run --component --browser chrome",
+    "test": "jest --no-cache",
     "test:open": "cypress open --component --browser chrome",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -26,6 +26,14 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@swc/core": "^1.4.8",
+    "@swc/jest": "^0.2.36",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.12",
     "@types/mocha": "^10.0.6",
     "@types/react": "^18.0.28",
@@ -34,11 +42,16 @@
     "@typescript-eslint/parser": "^7.0.0",
     "@ui5/webcomponents-cypress-commands": "^1.12.0",
     "@vitejs/plugin-react": "^4.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^29.7.0",
     "cypress": "^13.0.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "sass": "^1.72.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.0.2",
     "vite": "^5.0.0"
   }
